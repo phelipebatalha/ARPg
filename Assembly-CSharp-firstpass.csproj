@@ -65,39 +65,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Components\CSGModelExported.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\Utility\ComponentUpgrader.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Runtime\CSGOperationType.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Components\Legacy\LegacyGeneratedMeshContainer.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Runtime\VertexChannelFlags.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\CSGModel.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Runtime\ControlMesh.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Components\InternalFlags.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\CSGBrush.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Runtime\CSGPlane.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\Utility\HierarchyItem.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Runtime\TexGen.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Runtime\SurfaceLayers.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\Utility\CompareShape.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Components\GeneratedMeshes.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Components\GeneratedMeshInstance.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\Utility\ChildNodeData.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Runtime\GeneratedMeshContents.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Runtime\MeshQuery.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Utility\MeshUtility.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\Utility\GeometryWireframe.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\Utility\ParentNodeData.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\Utility\CompareTransformation.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\CSGOperation.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Runtime\Shape.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Runtime\Surface.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Managers\CSGSceneManagerRedirector.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Attributes\EnumAsFlagsAttribute.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Components\Runtime\CSGNode.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Managers\CSGSceneManagerInterface.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Components\Shape\MathConstants.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Runtime\Scripts\Utility\GameObjectExtensions.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Runtime\TexGenFlags.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Runtime\GeneratedMeshDescription.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\RealtimeCSG\License.txt" />
@@ -1020,12 +997,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">

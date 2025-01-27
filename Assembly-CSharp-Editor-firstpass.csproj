@@ -68,13 +68,11 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.SpiralStairs.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.Box.Settings.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Hierarchy\HierarchyItemExtension.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\CSGTreeNode.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Outline2D.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Settings\KeyEvent.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\Utility\TooltipContentState.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.Cylinder.Settings.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.LinearStairs.GUIContents.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\Native\CSGTree.Native.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\SceneViewInfoGUI\SceneViewInfo.GUI.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\GUIConstants.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Selection\ControlMeshState.cs" />
@@ -90,7 +88,6 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\Utility\CSG_GUIStyleUtility.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\Utility\Tooltip.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Rendering\PolygonMeshRenderer.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\BrushMeshInstance.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.Sphere.Settings.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\SceneQuery\AABB.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Rendering\BrushOutlineManager.cs" />
@@ -102,7 +99,6 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Settings\ColorSettings.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.FreeDraw.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\CSGModelManager.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\Native\CSGManager.Native.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Selection\SelectionUtility.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditorWindow\Debug.HierarchyWindow.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Rendering\CSGRenderer.cs" />
@@ -112,7 +108,6 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Utility\CursorUtility.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Helpers\ModelTraits.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\InternalCSGModelManager.DefaultModel.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\BrushMeshUtility.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Bindings\NativeMethodBindings.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\UnityGridManager.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\IGenerator.cs" />
@@ -135,9 +130,7 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Settings\Keys.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\RectangleSelectionManager.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Selection\SelectBrushSurface.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\CSGTreeBranch.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Clip.GUIContents.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\CSGManager.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Handles\CSGHandles.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\BrushTraits.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Surface.GUI.cs" />
@@ -157,11 +150,9 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.Box.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.Cylinder.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Place.GUI.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\CSGTree.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Operations\ControlMeshOperations.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\SceneViewBottomBarGUI\SceneViewBottomBar.GUIContents.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Units.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\Version.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Helpers\GeometryUtility.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Rendering\BrushOutlineRenderer.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Helpers\MaterialUtility.cs" />
@@ -188,16 +179,12 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\SceneViewEventHandler.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Clip.GUI.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Handles\CSGDisc.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Editor\BrushFactory.Legacy.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\InternalCSGModelManager.Lifetime.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Legacy\Editor\BrushFactory.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\Native\BrushMeshInstance.Native.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.Sphere.GUIContents.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\DragAndDrop\ISceneDragTool.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Attributes\CSGModelModifiedEventAttribute.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Generate.GUI.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Edit.GUI.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\Native\CSGTreeBrush.Native.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Thirdparty\UnityFBXExporter\FBXExporter.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.Sphere.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Surface.GUIContents.cs" />
@@ -220,7 +207,6 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.SpiralStairs.GUI.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Clip.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Rendering\LineMeshRenderer.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\Native\CSGTreeNode.Native.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\CSGSceneManagerInstance.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\DragAndDrop\SceneDragTool.Meshes.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Thirdparty\UnityFBXExporter\Editor\ExporterMenu.cs" />
@@ -231,17 +217,13 @@
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\ComponentEditorWindows\CSGModelComponent.Inspector.GUIContents.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModeSelection.GUIContents.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\MeshInstanceManager.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\CSGTreeBrush.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Rendering\PointMeshRenderer.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\Native\CSGTreeBranch.Native.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\ComponentEditorWindows\ExportedModelComponent.Editor.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Generate.GUIContents.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\EditMode.Place.GUIContents.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\BrushMesh.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Data\Settings\CSGSettings.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\Scene\Handles\CSGScaleSlider.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\Control\Managers\InternalCSGModelManager.UpdateMeshes.cs" />
-    <Compile Include="Assets\Plugins\RealtimeCSG\API\Foundation\Editor\BrushValidation.cs" />
     <Compile Include="Assets\Plugins\RealtimeCSG\Editor\Scripts\View\GUI\EditModeGUI\EditModes\Generators\Generator.ExtrudedBase.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1251,12 +1233,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">

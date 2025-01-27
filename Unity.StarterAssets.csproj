@@ -64,18 +64,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Starter Assets\Runtime\Mobile\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\Starter Assets\Runtime\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\Starter Assets\Runtime\ThirdPersonController\Scripts\ThirdPersonController.cs" />
-    <Compile Include="Assets\Starter Assets\Runtime\Common\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\Starter Assets\Runtime\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\Starter Assets\Runtime\Mobile\Scripts\TouchscreenInput.cs" />
-    <Compile Include="Assets\Starter Assets\Runtime\FirstPersonController\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Imports\Starter Assets\Runtime\Common\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Imports\Starter Assets\Runtime\Mobile\Scripts\TouchscreenInput.cs" />
+    <Compile Include="Assets\Imports\Starter Assets\Runtime\FirstPersonController\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Imports\Starter Assets\Runtime\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Imports\Starter Assets\Runtime\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Imports\Starter Assets\Runtime\Mobile\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Imports\Starter Assets\Runtime\InputSystem\StarterAssetsInputs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Starter Assets\Runtime\Unity.StarterAssets.asmdef" />
-    <None Include="Assets\Starter Assets\Runtime\Mobile\UI\ToucScreenInputStyle.uss" />
-    <None Include="Assets\Starter Assets\Runtime\Mobile\UI\TouchScreenInputUI.uxml" />
+    <None Include="Assets\Imports\Starter Assets\Runtime\Unity.StarterAssets.asmdef" />
+    <None Include="Assets\Imports\Starter Assets\Runtime\Mobile\UI\ToucScreenInputStyle.uss" />
+    <None Include="Assets\Imports\Starter Assets\Runtime\Mobile\UI\TouchScreenInputUI.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
