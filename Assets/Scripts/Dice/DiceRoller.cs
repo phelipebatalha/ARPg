@@ -34,10 +34,9 @@ public class DiceRoller : MonoBehaviour {
 
     Vector3 originPosition;
     Vector3 currentVelocity;
-    bool finalize;
-    void Start() {
-        rollTimer.Start(); 
-    }
+    public bool finalize;
+
+    
     void Awake() {
         diceSides = GetComponent<DiceSides>();
         audioSource = GetComponent<AudioSource>();
@@ -50,7 +49,9 @@ public class DiceRoller : MonoBehaviour {
         rollTimer.OnTimerStart += PerformInitialRoll;
         rollTimer.OnTimerStop += () => finalize = true;
     }
-
+    public void EventStarter() {
+        rollTimer.Start(); 
+    }
     void OnMouseUp() {
         if (rollTimer.IsRunning) return;
         rollTimer.Start();
